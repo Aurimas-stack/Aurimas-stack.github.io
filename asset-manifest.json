@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f40f111.css",
+    "main.js": "/static/js/main.5aae4aea.js",
+    "static/js/787.fe233384.chunk.js": "/static/js/787.fe233384.chunk.js",
+    "static/media/inspirational.png": "/static/media/inspirational.db032b5252e41224d1dc.png",
+    "static/media/wikipedia_viewer.png": "/static/media/wikipedia_viewer.14d32f395ca4bb6eadab.png",
+    "static/media/country_list.png": "/static/media/country_list.378a92768baaf0279f17.png",
+    "static/media/light_bright.png": "/static/media/light_bright.60b4006a6ace75e44912.png",
+    "static/media/box_shadow.png": "/static/media/box_shadow.e5a48de35e378d329b38.png",
+    "static/media/Game_of_life.png": "/static/media/Game_of_life.8563b6e0bea7486cb2c8.png",
+    "index.html": "/index.html",
+    "main.0f40f111.css.map": "/static/css/main.0f40f111.css.map",
+    "main.5aae4aea.js.map": "/static/js/main.5aae4aea.js.map",
+    "787.fe233384.chunk.js.map": "/static/js/787.fe233384.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f40f111.css",
+    "static/js/main.5aae4aea.js"
+  ]
+}

@@ -1,0 +1,17 @@
+.contact_cont {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact_cont > a {
+    text-decoration: none;
+    color: rgba(128, 255, 128, 0.8);
+    margin:20px 0;
+    font-size:1.2rem;
+    font-weight: 600;
+}
+.contact_cont > a:hover{
+    cursor: pointer;
+    color:#ad0a0a;
+}

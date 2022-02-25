@@ -1,0 +1,15 @@
+.terminal_input {
+    padding:0;
+    color:rgba(128, 255, 128, 0.8);
+    background-color: #000;
+    border:none;
+}
+.terminal_input:focus {
+    outline: none;
+}
+.hidden_input_form {
+    position: absolute;
+	bottom: -1;
+	left: 10px;
+	z-index: -10;
+}
