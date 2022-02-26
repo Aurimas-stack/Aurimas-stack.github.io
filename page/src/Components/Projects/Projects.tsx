@@ -7,6 +7,10 @@ import Inspirational from "./images/inspirational.png";
 import BoxShadow from "./images/box_shadow.png";
 import WikiViewer from "./images/wikipedia_viewer.png";
 import LightBright from "./images/light_bright.png";
+import RecipeBox from "./images/recipe_box.png";
+import Foreca from "./images/foreca.png";
+import Calculator from "./images/calculator.png";
+import Clock from "./images/clock.png";
 import GameOfLife from "./images/Game_of_life.png";
 
 import "./Projects.css";
@@ -32,8 +36,20 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           href="https://aurimas-stack.github.io/React-project-6-FCC_game_of_life_app/"
           target="_blank"
           className="image_link"
+          rel="noopener noreferrer"
         >
           <img className="project_pic" src={GameOfLife} alt="Game of Life" />
+        </a>
+      </div>
+      <div className="project_window">
+        <h4>Weather (Foreca) </h4>
+        <a
+          href="https://aurimas-stack.github.io/foreca/"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={Foreca} alt="Weather" />
         </a>
       </div>
       <div className="project_window">
@@ -42,6 +58,7 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           href="https://aurimas-stack.github.io/React-Typescript-project-countryl_list_app/"
           target="_blank"
           className="image_link"
+          rel="noopener noreferrer"
         >
           <img className="project_pic" src={CountryList} alt="Country List" />
         </a>
@@ -52,6 +69,7 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           href="https://aurimas-stack.github.io/React-Redux-Project-2-CA_inspirational_homepage"
           target="_blank"
           className="image_link"
+          rel="noopener noreferrer"
         >
           <img
             className="project_pic"
@@ -61,11 +79,34 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
         </a>
       </div>
       <div className="project_window">
+        <h4>Recipe Box </h4>
+        <a
+          href="https://aurimas-stack.github.io/React-project-5-FCC_recipe-box_app/"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={RecipeBox} alt="Recipe Box" />
+        </a>
+      </div>
+      <div className="project_window">
+        <h4>Calculator</h4>
+        <a
+          href="https://aurimas-stack.github.io/calculator/"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={Calculator} alt="Calculator" />
+        </a>
+      </div>
+      <div className="project_window">
         <h4>Box Shadow app</h4>
         <a
           href="https://aurimas-stack.github.io/Textbox_shadow_app/"
           target="_blank"
           className="image_link"
+          rel="noopener noreferrer"
         >
           <img className="project_pic" src={BoxShadow} alt="Box Shadow" />
         </a>
@@ -76,8 +117,20 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           href="https://aurimas-stack.github.io/React-project-3-FCC-Wikipedia-Viewer/"
           target="_blank"
           className="image_link"
+          rel="noopener noreferrer"
         >
           <img className="project_pic" src={WikiViewer} alt="Wiki" />
+        </a>
+      </div>
+      <div className="project_window">
+        <h4>25 + 5 Clock</h4>
+        <a
+          href="https://aurimas-stack.github.io/25_5_clock/"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={Clock} alt="Clock" />
         </a>
       </div>
       <div className="project_window">
@@ -86,6 +139,7 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           href="https://aurimas-stack.github.io/React-project-4-FCC_light-bright_app/"
           target="_blank"
           className="image_link"
+          rel="noopener noreferrer"
         >
           <img className="project_pic" src={LightBright} alt="Light Bright" />
         </a>

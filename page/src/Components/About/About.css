@@ -65,3 +65,16 @@
     font-weight: 800;
     animation: console_cursor 1.5s steps(2, start) infinite;
 }
+
+@media screen and (max-width:680px) {
+    .about {
+        margin-top:30px;
+        max-width:450px;
+    }
+}
+@media screen and (max-width:480px) {
+    .about {
+        margin-top:30px;
+        max-width:380px;
+    }
+}

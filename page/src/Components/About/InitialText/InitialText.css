@@ -1,5 +1,4 @@
-.line-1 {
-    
+.line-1 {  
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent;
@@ -30,5 +29,10 @@
     }
     to {
         border-color: transparent;
+    }
+}
+@media screen and (max-width:480px) {
+    .line-1 {
+        letter-spacing: 0;
     }
 }

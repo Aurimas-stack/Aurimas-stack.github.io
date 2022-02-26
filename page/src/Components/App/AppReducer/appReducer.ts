@@ -94,7 +94,6 @@ export const appReducer: React.Reducer<InitialState, Action> = (
         start: true,
         initial_text: false,
         show_commands: false,
-        show_portfolio: false,
         show_about: false,
         show_contacts: false,
         show_all: false,
