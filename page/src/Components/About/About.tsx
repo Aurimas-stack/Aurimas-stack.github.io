@@ -31,6 +31,7 @@ const About: FC<AboutProps> = ({
       <div className="about_window">
         <p className="text not_final">Not final build</p>
         {state.initial_text && <InitialText /> }
+        {(state.show_portfolio || state.show_all) && <p className="text not_final">Not all projects included</p>}
         <Error state={state}/>
         {state.show_commands && <Commands state={state}/>}
         {(state.show_about || state.show_all) && <Description />}

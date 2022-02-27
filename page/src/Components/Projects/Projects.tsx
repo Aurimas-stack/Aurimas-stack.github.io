@@ -11,6 +11,8 @@ import RecipeBox from "./images/recipe_box.png";
 import Foreca from "./images/foreca.png";
 import Calculator from "./images/calculator.png";
 import Clock from "./images/clock.png";
+import Regex from "./images/regex.png";
+import Drums from "./images/drums.png";
 import GameOfLife from "./images/Game_of_life.png";
 
 import "./Projects.css";
@@ -123,6 +125,17 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
         </a>
       </div>
       <div className="project_window">
+        <h4>Regex helper</h4>
+        <a
+          href="https://aurimas-stack.github.io/React-Project-7-Regex_helper/"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={Regex} alt="Regex helper" />
+        </a>
+      </div>
+      <div className="project_window">
         <h4>25 + 5 Clock</h4>
         <a
           href="https://aurimas-stack.github.io/25_5_clock/"
@@ -131,6 +144,17 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           rel="noopener noreferrer"
         >
           <img className="project_pic" src={Clock} alt="Clock" />
+        </a>
+      </div>
+      <div className="project_window">
+        <h4>Drums</h4>
+        <a
+          href="https://aurimas-stack.github.io/drums/"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={Drums} alt="Drums" />
         </a>
       </div>
       <div className="project_window">
