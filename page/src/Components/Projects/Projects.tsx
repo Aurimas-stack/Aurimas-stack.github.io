@@ -13,6 +13,7 @@ import Calculator from "./images/calculator.png";
 import Clock from "./images/clock.png";
 import Regex from "./images/regex.png";
 import Drums from "./images/drums.png";
+import Covid from "./images/covid.png";
 import GameOfLife from "./images/Game_of_life.png";
 
 import "./Projects.css";
@@ -52,6 +53,17 @@ const Projects: FC<ProjectsProps> = ({ state, dispatch }) => {
           rel="noopener noreferrer"
         >
           <img className="project_pic" src={Foreca} alt="Weather" />
+        </a>
+      </div>
+      <div className="project_window">
+        <h4>Covid app</h4>
+        <a
+          href="https://aurimas-stack.github.io/covid_app"
+          target="_blank"
+          className="image_link"
+          rel="noopener noreferrer"
+        >
+          <img className="project_pic" src={Covid} alt="Covid app" />
         </a>
       </div>
       <div className="project_window">

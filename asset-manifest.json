@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.be22078b.css",
-    "main.js": "/static/js/main.ec3ead7d.js",
+    "main.js": "/static/js/main.2899004e.js",
     "static/js/787.fe233384.chunk.js": "/static/js/787.fe233384.chunk.js",
     "static/media/inspirational.png": "/static/media/inspirational.db032b5252e41224d1dc.png",
     "static/media/wikipedia_viewer.png": "/static/media/wikipedia_viewer.14d32f395ca4bb6eadab.png",
@@ -10,6 +10,7 @@
     "static/media/calculator.png": "/static/media/calculator.9373a7bb1201be1c0cd3.png",
     "static/media/light_bright.png": "/static/media/light_bright.60b4006a6ace75e44912.png",
     "static/media/recipe_box.png": "/static/media/recipe_box.d864ba50624bd11106e3.png",
+    "static/media/covid.png": "/static/media/covid.c731c43c9d65323b05fe.png",
     "static/media/box_shadow.png": "/static/media/box_shadow.e5a48de35e378d329b38.png",
     "static/media/clock.png": "/static/media/clock.ebf0cdf3cb84593777b6.png",
     "static/media/regex.png": "/static/media/regex.4c800e3c45f9f75d85cc.png",
@@ -17,11 +18,11 @@
     "static/media/drums.png": "/static/media/drums.9faf0196273653257ddc.png",
     "index.html": "/index.html",
     "main.be22078b.css.map": "/static/css/main.be22078b.css.map",
-    "main.ec3ead7d.js.map": "/static/js/main.ec3ead7d.js.map",
+    "main.2899004e.js.map": "/static/js/main.2899004e.js.map",
     "787.fe233384.chunk.js.map": "/static/js/787.fe233384.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be22078b.css",
-    "static/js/main.ec3ead7d.js"
+    "static/js/main.2899004e.js"
   ]
 }
